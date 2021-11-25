@@ -40,10 +40,10 @@ def contador(cadena):
 
     for caracter in cadena:
         if caracter.isupper():
-            mayusculas+=1
+            mayusculas += 1
         elif caracter.islower():
-            minisculas+=1
+            minisculas += 1
             
-    mayusc_y_mins=(mayusculas, minisculas)
+    mayusc_y_mins = (mayusculas, minisculas)
     return mayusc_y_mins
 print(doctest.testmod())

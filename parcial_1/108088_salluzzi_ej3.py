@@ -46,7 +46,7 @@ def crear_ranking_velocidades(runners):
     for corredor in runners.items():
         velocidades_promedio=corredor[DATOS][KILOMETROS_CORRIDOS]/corredor[DATOS][TIEMPO_TOTAL]
         lista_velocidades_promedio.append([corredor[NOMBRE], velocidades_promedio])
-        lista_velocidades_promedio.sort(reverse= True, key= lambda x:x[1])
+        lista_velocidades_promedio.sort(reverse= True, key = lambda x:x[1])
         
     return lista_velocidades_promedio
     
